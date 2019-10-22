@@ -1,0 +1,210 @@
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.377) }
+
+
+footer p {
+    margin-bottom: .25rem;
+  }
+
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  
+
+  @media screen and (min-width: 1500px) {
+
+    .carousel-inner {
+        height: 920px ;
+    }
+}
+
+.buttons {
+    padding-right: 50px;
+ 
+    position: relative;
+    color:white;
+    display:inline-block;
+    float: right;
+}
+
+.fa-facebook,.fa-twitter,.fa-linkedin,.fa-youtube,.fa-instagram {
+    padding: 20px;
+    font-size: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    color:black
+  }
+
+
+  .fa-facebook:hover {
+    color: hotpink!important;
+  }
+
+  .fa-twitter:hover {
+    color: hotpink!important;
+  }
+
+  .fa-linkedin:hover {
+    color: hotpink!important;
+  }
+
+  .fa-youtube:hover{
+    color: hotpink!important;
+  }
+  .fa-instagram:hover{
+    color: hotpink!important;
+  }
+
+
+.center-footer {
+    text-align: center;
+}
+
+.menu-item {
+padding:20px;
+color: white;
+
+}
+
+.AAA {
+background-color: rgba(0, 0, 0, 0.377);
+position: relative;
+}
+
+  
+  
+ 
+.menu-item :link {
+  color: red;
+}
+
+/* visited link */
+.menu-item:visited {
+  color: white;
+}
+
+/* mouse over link */
+.menu-item:hover {
+  color: white;
+  background-color: hotpink;
+}
+
+/* selected link */
+.menu-item:active {
+  background-color: hotpink;
+} 
+  
+.btn-outline-secondary:hover {
+  background-color: hotpink;
+}
+
+.card-body:hover{
+
+  background-color: hotpink;
+}
+
+.card-text {
+  font-weight: bold;
+
+}
+
+#logo {
+padding-left:70px;
+
+}
+
+.linkdiv:link {
+  color: black;
+
+}
+
+.linkdiv :visited{
+  color: black;
+  
+  }
+
+.linkdiv:active {
+    color: black;
+  } 
+.linkdiv
+  {
+    color: black;
+  } 
+
+.linkdiv:hover {
+    color: black;
+  } 
+
+
+
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height:78px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color:hotpink;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:#343a40;
+  color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+
+ .navbar {
+   display: none;
+ }
+
+ #logo {
+  padding-left:20px;
+  
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+
+  .topnav {
+    display: none;
+  }
+ 
+ }
+
