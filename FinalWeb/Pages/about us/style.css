@@ -78,6 +78,7 @@ position: relative;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  height:100%;
 }
 
 
@@ -111,17 +112,36 @@ text-align: center;
 
  }
   
-  
+/*   
  @media screen and (max-width: 1550px) {
 
   .article-mage {
     height: 100px;
     
    }
-}
+} */
 
 .picture-centre {
 
   text-align: center;
 
+}
+
+#partnerheading {
+
+padding-top: 20px;
+
+}
+
+.partnerpic {
+
+  height: 130px;
+  padding-top: 40px;
+  padding-bottom;: 40px;
+
+}
+
+.partner {
+
+  padding-bottom: 40px;
 }

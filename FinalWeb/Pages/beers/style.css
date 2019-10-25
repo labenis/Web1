@@ -61,7 +61,7 @@ position: relative;
 
  @media screen and (max-width: 1200px) {
 
-  .article-mage {
+  .col-lg-3 {
      display:none ;
   }
 }
@@ -77,3 +77,10 @@ position: relative;
   color: black;
 }
   
+
+.mainplacement {
+  margin-left:60px;
+  margin-right:60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
